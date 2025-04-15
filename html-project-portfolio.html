@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project</title>
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm an aspiring web developer passionate about coding and creative design. I love creating digital products and gaming.</p>
+      <audio controls>
+        <source src="intro.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <h2>My Work</h2>
+      <ul>
+        <li>Project 1: Test Knowledge (Research on how the web works)</li>
+        <li>Project 2: Git/Github Project</li>
+        <li>Project 3: Portfolio Website</li>
+      </ul>
+      <video width="320" height="240" controls>
+        <source src="project-demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Role</th>
+            <th>Company</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2020</td>
+            <td>Visual Designer</td>
+            <td>Radiksez</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Product Designer</td>
+            <td>Explicit Mode</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <input type="submit" value="Send Message">
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mubi's Portfolio | Built with 💻 and ❤️</p>
+  </footer>
+
+</body>
+</html>
